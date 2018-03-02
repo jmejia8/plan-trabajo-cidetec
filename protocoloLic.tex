@@ -1,0 +1,156 @@
+\documentclass[12pt,letterpaper, xcolor=table, x11names]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       Paquetes Necesarios
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{courier} \renewcommand{\familydefault}{\sfdefault}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amsfonts, amssymb, titlesec}
+\usepackage{fancyhdr}
+\usepackage[x11names, table]{xcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Definiciones de colores
+\definecolor{gray}{RGB}{216, 216, 216}
+\definecolor{gray2}{RGB}{231, 231, 231}
+\definecolor{black}{RGB}{0, 0, 0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Seccioning
+% \titleformat{\section}
+% {\normalfont\Large\sf \bfseries}
+% {
+% \fcolorbox{gray}{gray2}{\thesection.}
+% }
+% {0.5em}
+% {}
+% \titlespacing{\section}{-48px}{1.5ex plus .1ex minus .2ex}{1pc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Nuevos Comandos
+\renewcommand{\labelenumi}{\roman{enumi}$)$}
+\newcommand{\tache}{$\boldsymbol{\times}$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \date{Última actualización: \today}
+
+\newcommand{\mytitle}{ %
+% 
+	\vspace*{2cm}
+	\begin{center}
+		{\LARGE \bf Estancia de Investigación}\\[0.1cm]%
+		{\Large \bf Plan de Trabajo}\\[0.4cm]%
+		{\large Fecha de elaboración: \today}
+	\end{center}
+	\vspace{0.7cm}
+	% 
+}
+
+\begin{document}
+
+\mytitle
+
+El presente documento expone el Plan de Trabajo de la Estancia de Investigación
+que realizará Jesús Adolfo Mejía de Dios, con matrícula S16017501, estudiante de la
+Maestría en Inteligencia Artificial (MIA) de la Universidad Veracruzana (UV). Dicha estancia se realizará bajo la asesoría del Dr. Edgar Alfredo Portilla Flores, investigador del Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) del Instituto Politécnico Nacional (IPN). El periodo que vigencia de la estancia será del 1 de marzo al 30 de abril del año en curso.
+
+\section{Objetivo General}
+Analizar el desempeño del algoritmo \textit{Evolutionary Centers Algorithm} (ECA) diseñado en el Centro de Investigación en Inteligencia Artificial de la UV para resolver problemas de optimización altamente complejos de la vida real.
+
+\section{Objetivos Particulares}
+\begin{itemize}
+\item Exponer el algoritmo ECA a estudiantes en CIDETEC para que conozcan y le encuentren utilidad a esta nueva alternativa.
+\item Familiarizarme con problemas de Mecatrónica que se encuentran resolviendo en CIDETEC.
+\item Revisión de la literatura referente a los problemas en cuestión.
+\item Ajustar el algoritmo ECA para la resolver un problemas, es decir, encontrar los parámetros adecuados tales que ECA resuelva, de manera acertada, los problemas elegidos.
+\item Analizar los resultados obtenidos y aplicar técnicas estadísticas que indique cuál es el desempeño el algoritmo en cada escenario.
+\item Escribir un reporte explicando los resultados del análisis realizado después de la experimentación.
+\end{itemize}
+
+% \clearpage
+
+\section{Cronograma de Actividades}
+
+\begin{center}
+	
+\rowcolors{1}{gray!50}{}
+\hspace{-1.0cm}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+\hline \rowcolor{gray}
+% 
+&\multicolumn{8}{c}{\bf Número de Semana}\\ \hline
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\bf Actividad } 
+&{\bf 1}&{\bf 2}&{\bf 3}&{\bf 4} &{\bf 5}&{\bf 6}&{\bf 7}&{\bf 8} \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Revisión bibliográfica de la problemática a resolver
+& \tache  & \tache & \tache & \tache  & \tache & \tache & \tache & \tache \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Exponer Algoritmo ECA
+& \tache  &        &        &         &        &        &        & \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Familiarizarme con problemas representativos  
+&         & \tache & \tache  & & & & & \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Ajustar ECA para resolver dichos problemas
+&          & \tache & \tache &           & & & & \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Diseño de experimentos
+&&&          & \tache & \tache  &          & & \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Análisis de resultados y comprobación estadística
+&&&&          &          & \tache & \tache &  \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Redacción de reporte
+&&&&&          &          & \tache & \tache \\ \hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{tabular}
+\end{center}
+
+\vspace{1cm}
+\begin{center}
+	\textbf{Atentamente}
+	\\[3cm]
+	\begin{minipage}{.4\textwidth}
+		\centering
+		\rule{\textwidth}{1pt}\\
+		Jesús Adolfo Mejía de Dios\\
+		Interesado
+	\end{minipage}
+	\\[3cm]
+	\begin{minipage}{.4\textwidth}
+		\centering
+		\rule{\textwidth}{1pt}\\
+		Dr. Efrén Mezura Montes\\
+		Asesor Académico\\
+		Vo.Bo.
+	\end{minipage}
+	\hspace{1cm}
+	\begin{minipage}{.4\textwidth}
+		\centering
+		\rule{\textwidth}{1pt}\\
+		Dr. Edgar Alfredo Portilla Flores\\
+		Asesor Anfitrión\\
+		Vo.Bo.
+	\end{minipage}
+
+\end{center}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
